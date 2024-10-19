@@ -1,1 +1,0 @@
-# Kinhiro's Maven Repository
