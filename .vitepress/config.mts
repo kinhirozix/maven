@@ -9,8 +9,9 @@ export default defineConfig({
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         socialLinks: [
-            { icon: "github", link: "https://github.com/kinhirozix/maven" },
-        ],
+            { icon: "github", link: "https://github.com/kinhirozix/maven" }
+        ]
     },
     srcExclude: ["**/README.md"],
+    head: [["link", { rel: "icon", href: "/maven/favicon.ico" }]]
 });
