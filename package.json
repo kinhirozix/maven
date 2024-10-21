@@ -1,0 +1,20 @@
+{
+    "name": "maven",
+    "version": "1.0.0",
+    "description": "Kinhiro's Maven Repository.",
+    "scripts": {
+        "dev": "vitepress dev",
+        "build": "vitepress build",
+        "preview": "vitepress preview"
+    },
+    "keywords": [
+        "maven-repository",
+        "kinhiro"
+    ],
+    "author": "Kinhiro",
+    "license": "AGPL-3.0-only",
+    "devDependencies": {
+        "vitepress": "^1.4.1",
+        "vue": "^3.5.12"
+    }
+}
